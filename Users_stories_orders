@@ -1,0 +1,13 @@
+Users Stories orders
+
+1. En tant que développeur,
+Je veux initialiser le contenu du panier (message si panier vide),
+Afin de pouvoir passer la commande du client.
+
+2.En tant qu'acheteur,
+Je veux savoir si ma commande est bien passée et quel en était le montant
+Afin d'avoir une preuve, un justificatif de paiement.
+
+3.En tant qu'acheteur,
+Je veux un récapitulatif concis des items de la commande, de la quantité et du prix de chaque item
+Afin d'afficher une facture ou un récapitulatif global de la commande.
