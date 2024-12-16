@@ -17,6 +17,9 @@ Afin de ne pas l’acheter
 Je veux qu’un message d’erreur s’affiche si le produit n’est plus disponible à l’achat ou si un produit n’est pas dans le panier
 Afin de choisir autre chose.
 
+  Critères d'acceptation:
+  - Un message m'avertie que le produit n'est plus disponible ou si il n'est pas possible de l'ajouter au panier.
+
 5. En tant qu’acheteur,
 Je veux pouvoir supprimer l’intégralité de mon panier en un clic
 Afin de recommencer mes achats (en cas d’erreurs multiples)
