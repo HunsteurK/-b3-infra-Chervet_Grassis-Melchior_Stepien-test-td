@@ -1,17 +1,26 @@
 Users_stories_cart
 
 
-1. En tant qu'acheteur,
+1. En tant que développeur,
 Je veux initialiser le panier et la quantité en stock
-Dans le but d’acheter un produit et de m’assurer qu’il existe en stock. Si non, un message d’erreur explique qu’il n’est plus en stock.
+Dans le but que l'acheteur puisse acheter un produit qui existe en stock. Si non, un message d’erreur explique qu’il n’est plus en stock.
+
+  Critères d'acceptation: 
+  - Un produit est affiché, avec sa quantité et éventuellement la réduction appliquée sur le produit
 
 2. En tant qu’acheteur,
 Je veux ajouter un produit au panier
 Dans le but de passer commande
 
+  Critères d'acceptation:
+  - Un produit d'ajoute au panier
+
 3. En tant qu’acheteur,
 Je veux supprimer un produit du panier
 Afin de ne pas l’acheter
+
+  Critères d'acceptation
+  - Un produit se supprime du panier
 
 4. En tant qu’acheteur
 Je veux qu’un message d’erreur s’affiche si le produit n’est plus disponible à l’achat ou si un produit n’est pas dans le panier
@@ -39,6 +48,12 @@ Afin de réduire le prix de ma commande et bénéficier de promotions !
 Je veux pouvoir avoir connaissance du prix total de mon panier
 Afin d’avoir une idée du coût total.
 
+  Critères d'acceptation:
+  - La somme des prix des produits est retournée
+
 8. En tant qu’acheteur,
 Je veux pouvoir voir si mon panier est vide ou la liste des produits qu’il contient
 Afin de savoir où j’en suis dans ma liste d’achats.
+
+  Critères d'acceptation:
+  - Le contenu du panier s'affiche, avec la quantité de chaque produit acheté et le prix des produits.
