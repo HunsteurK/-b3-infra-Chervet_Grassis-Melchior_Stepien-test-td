@@ -4,10 +4,50 @@ Users Stories orders
 Je veux initialiser le contenu du panier (message si panier vide),
 Afin de pouvoir passer la commande du client.
 
+  Critères d'acceptation:
+  - Le contenu du panier est affiché
+  - Le statut de la commande est initialisé "pending"
+
 2.En tant qu'acheteur,
 Je veux savoir si ma commande est bien passée et quel en était le montant
 Afin d'avoir une preuve, un justificatif de paiement.
 
-3.En tant qu'acheteur,
+  Critères D'acceptation:
+  - Un message s'affiche comme quoi ma commande est passée correctement
+  - Le statut de la commande se met à jour "completed"
+
+3. En tant qu'acheteur,
 Je veux un récapitulatif concis des items de la commande, de la quantité et du prix de chaque item
 Afin d'afficher une facture ou un récapitulatif global de la commande.
+
+  Critères d'acceptation:
+  - Les produits commandés s'affichent, avec leurs quantité et leur prix totaux
+
+4. En tant qu'acheteur,
+Je veux pouvoir annuler ma commande
+Afin de réajuster les produits de la commande ou d'attendre davantage
+
+  Critères d'acceptation:
+  - Si le statut de la commande est en attente, un message indique que la commande ne peut pas être annulée
+  - Dans tous les autres cas, la commande peut être annulée et affiche que c'est le cas.
+
+5. En tant qu'acheteur,
+Je veux connaître le statut de ma commande (si elle passe ou non),
+Afin de savoir où ma commande en est.
+
+  Critères d'acceptation:
+  - Si commande effectuée, affiche un message de statut "completed"
+  - Si la commande n'est pas terminée, un message indique que le statut ne peut pas être validé comme "completed"
+  - Lorsque la commande est passée, un numéro de commande est affecté à la commande cliente
+
+6. En tant qu'acheteur,
+Je veux pouvoir voir le statut de ma commande (résumé de la commande, pending/processing/completed/canceled)
+Afin de savoir si la commande est bien effectuée ou si un problème survient au cours du process
+En tant que développeur,
+Je veux pouvoir rentrer manuellement le statut de la commande
+Afin de mettre à jour la commande de l'acheteur en cas de problèmes
+
+  Critères d'acceptation:
+  - Le statut entré manuellement doit être valide, intégré à valid_statuses
+  - Si ce n'est pas le cas, affiche un message d'erreur
+  - Si c'est le cas, afficher un message de réussite.
