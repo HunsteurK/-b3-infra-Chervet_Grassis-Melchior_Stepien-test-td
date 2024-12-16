@@ -1,7 +1,7 @@
 Users_stories_cart
 
 
-1. En tant que propriétaire de l’application
+1. En tant qu'acheteur,
 Je veux initialiser le panier et la quantité en stock
 Dans le but d’acheter un produit et de m’assurer qu’il existe en stock. Si non, un message d’erreur explique qu’il n’est plus en stock.
 
@@ -21,9 +21,16 @@ Afin de choisir autre chose.
 Je veux pouvoir supprimer l’intégralité de mon panier en un clic
 Afin de recommencer mes achats (en cas d’erreurs multiples)
 
+  Critères d'acceptation: 
+  - Le panier se vide intégralement (clear)
+
 6. En tant qu’acheteur,
 Je veux pouvoir appliquer un code de réduction
 Afin de réduire le prix de ma commande et bénéficier de promotions !
+
+  Critères d'acceptation:
+  - Je peux entrer une réduction
+  - La réduction s'applique bien au prix total du panier
 
 7. En tant qu’acheteur,
 Je veux pouvoir avoir connaissance du prix total de mon panier
