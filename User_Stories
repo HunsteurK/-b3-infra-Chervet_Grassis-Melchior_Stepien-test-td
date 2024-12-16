@@ -1,1 +1,17 @@
+Users_stories
 
+
+En tant que: propriétaires de l'application
+Nous voulons: pouvoir créer un produit avec un nom, un prix et une quantité en stock ainsi que la possibilité d'acheter un produit, modifier du panier, d'appliquer une réduction sur le panier et 
+de supprimer d'un coup les éléments contenus dans le panier.
+afin de: gérer mon inventaire de manière organisée.
+
+Un produit doit être créé avec les propriétés suivantes : name (string), price (number), et stock (number).
+Si l'une des propriétés est manquante ou incorrecte (e.g., price n'est pas un nombre), le système doit renvoyer une erreur.
+Les valeurs doivent être accessibles via les propriétés publiques de l'objet (product.name, product.price, product.stock).
+L'utilisateur doit pouvoir mettre un produit dans son panier, le supprimer du panier, passer la commande, appliquer une réduction avec un code de réduction et supprimer l'intégralité du panier.
+
+En tant que utilisateur du système,
+je veux pouvoir afficher les informations d'un produit (nom, prix, quantité en stock, l'intégrer dans mon panier, le supprimer du panier, passer commande, appliquer une réduction et supprimer l'intégralité
+du panier),
+afin de connaître ses détails rapidement et de passer commande
